@@ -14,6 +14,7 @@ const XPagination = () => {
       );
       setData(res.data);
     } catch (error) {
+      alert("failed to fetch data");
       console.error("error fetching api:", error);
     }
   };
