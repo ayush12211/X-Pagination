@@ -1,0 +1,58 @@
+/* Make the table take full width */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Header styling */
+.employee-table-head th {
+  background-color: #009879;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Body rows styling */
+.employee-details td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Hover effect */
+.employee-details tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Pagination section */
+button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color:#009879;
+  color: white;
+  border-radius: 4px;
+  
+  
+}
+
+/* Styling for page number button */
+button:nth-child(2) {
+  background-color: white;
+  color: black;
+  border: 1px solid #009879;
+  border-radius: 4px;
+}
+
+/* Positioning of pagination */
+.pagination {
+  
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
